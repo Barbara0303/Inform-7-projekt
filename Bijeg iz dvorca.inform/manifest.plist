@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Graphics</key>
+        <dict>
+            <key>1</key>
+            <string>C:\Users\Barbara\Documents\Inform\Projects\Bijeg iz dvorca.materials\Cover.jpg</string>
+            <key>9</key>
+            <string>Figures\kljuc.jpg</string>
+            <key>10</key>
+            <string>Figures\kleo.png</string>
+            <key>11</key>
+            <string>Figures\penelopa.jpg</string>
+            <key>12</key>
+            <string>Figures\maceha.png</string>
+        </dict>
+        <key>Sounds</key>
+        <dict>
+            <key>3</key>
+            <string>Sounds\fireplace.ogg</string>
+            <key>4</key>
+            <string>Sounds\vrata.ogg</string>
+            <key>5</key>
+            <string>Sounds\ormar.ogg</string>
+            <key>6</key>
+            <string>Sounds\wind.ogg</string>
+            <key>7</key>
+            <string>Sounds\pas.ogg</string>
+            <key>8</key>
+            <string>Sounds\dragon.ogg</string>
+        </dict>
+    </dict>
+</plist>

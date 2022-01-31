@@ -1,0 +1,65 @@
+! Blurb file created by Inform build 6M62
+
+status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Users\Barbara\Documents\Inform\Projects\Bijeg iz dvorca.inform\Build\StatusCblorb.html"
+
+
+! Identification
+
+project folder "C:\Users\Barbara\Documents\Inform\Projects\Bijeg iz dvorca.inform"
+release to "C:\Users\Barbara\Documents\Inform\Projects\Bijeg iz dvorca.materials\Release"
+
+! Blorb instructions
+
+storyfile leafname "Bijeg iz dvorca.gblorb"
+storyfile "C:\Users\Barbara\Documents\Inform\Projects\Bijeg iz dvorca.inform\Build\output.ulx" include
+ifiction "C:\Users\Barbara\Documents\Inform\Projects\Bijeg iz dvorca.inform\Metadata.iFiction" include
+cover "C:\Users\Barbara\Documents\Inform\Projects\Bijeg iz dvorca.materials\Cover.jpg"
+picture 1 "C:\Users\Barbara\Documents\Inform\Projects\Bijeg iz dvorca.materials\Cover.jpg"
+picture 9 "C:\Users\Barbara\Documents\Inform\Projects\Bijeg iz dvorca.materials\Figures\kljuc.jpg"
+picture 10 "C:\Users\Barbara\Documents\Inform\Projects\Bijeg iz dvorca.materials\Figures\kleo.png"
+picture 11 "C:\Users\Barbara\Documents\Inform\Projects\Bijeg iz dvorca.materials\Figures\penelopa.jpg"
+picture 12 "C:\Users\Barbara\Documents\Inform\Projects\Bijeg iz dvorca.materials\Figures\maceha.png"
+sound 3 "C:\Users\Barbara\Documents\Inform\Projects\Bijeg iz dvorca.materials\Sounds\fireplace.ogg"
+sound 4 "C:\Users\Barbara\Documents\Inform\Projects\Bijeg iz dvorca.materials\Sounds\vrata.ogg"
+sound 5 "C:\Users\Barbara\Documents\Inform\Projects\Bijeg iz dvorca.materials\Sounds\ormar.ogg"
+sound 6 "C:\Users\Barbara\Documents\Inform\Projects\Bijeg iz dvorca.materials\Sounds\wind.ogg"
+sound 7 "C:\Users\Barbara\Documents\Inform\Projects\Bijeg iz dvorca.materials\Sounds\pas.ogg"
+sound 8 "C:\Users\Barbara\Documents\Inform\Projects\Bijeg iz dvorca.materials\Sounds\dragon.ogg"
+
+! Placeholder variables
+
+placeholder [IFID] = "F047B536-1007-44EB-8A8C-35E018B2A309"
+placeholder [RELEASE] = "1"
+placeholder [YEAR] = "2022"
+placeholder [TITLE] = "Bijeg iz dvorca"
+placeholder [AUTHOR] = "Barbara Tatai"
+placeholder [BLURB] = "A work of interactive fiction."
+
+! Other material to release
+
+
+! Website instructions
+
+placeholder [ENCODEDSTORYFILE] = "Bijeg iz dvorca.gblorb.js"
+template path "C:\Users\Barbara\Documents\Inform\Projects\Bijeg iz dvorca.materials\Templates"
+template path "C:\Users\Barbara\Documents\Inform\Templates"
+template path "C:\Program Files (x86)\Inform 7\Internal\Templates"
+placeholder [INTERPRETERSCRIPTS] = " "
+interpreter "Quixe" "g"
+base64 "C:\Users\Barbara\Documents\Inform\Projects\Bijeg iz dvorca.inform\Build\output.ulx" to "C:\Users\Barbara\Documents\Inform\Projects\Bijeg iz dvorca.materials\Release\interpreter\Bijeg iz dvorca.gblorb.js"
+
+! Website instructions
+
+template path "C:\Users\Barbara\Documents\Inform\Projects\Bijeg iz dvorca.materials\Templates"
+template path "C:\Users\Barbara\Documents\Inform\Templates"
+template path "C:\Program Files (x86)\Inform 7\Internal\Templates"
+css
+website "Standard"
+status instruction ||&nbsp;<a href="source:story.ni#line5"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line6"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc401.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc411.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory postcard'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||
