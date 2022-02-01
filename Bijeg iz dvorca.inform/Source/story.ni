@@ -123,7 +123,7 @@ Lanterna is a thing. It is in Hodnik.. The description of Lanterna is "Mala tamn
 
 Instead of going to Glavna soba:
 	if we have not taken Lanterna:
-		say "U glavnoj sobi je premračno! Uzmi lanternu." ;
+		say "Uzmi lanternu." ;
 	otherwise:
 		if Svijeca is lit:
 			say "Sad imaš izvor svijetlosti pa možeš u Gertrudinu sobu.";
@@ -211,6 +211,10 @@ After taking Dnevnik:
 
 Prolaz u dnevni is a door. Prolaz u dnevni is closed and unlocked. Prolaz u dnevni is south of Hodnik and north of Dnevna soba. 
 Dnevna soba is room. "Raskošna dnevna soba s velikim kaminom u kojem gori vatra. Na stolu u kutu nalazi se hrana. Mogla bi si uzeti malo za put. Sjeverno se nalazi Prolaz prema hodniku. Zapadno se nalaze izlazna vrata - tvoj spas!".
+
+After going to Hodnik:
+	stop Sound of Vatra;
+	continue the action.
 
 After going to Dnevna soba:
 	now the sound channel of  Sound of Vatra is the foreground;
